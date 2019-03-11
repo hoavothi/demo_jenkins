@@ -6,5 +6,11 @@ pipeline {
                 echo 'Hello world! That is demo'
             }
         }
+
+        stage('Stage 2){
+           steps{
+              eho 'hello hoa'
+           }
+        }
     }
 }
