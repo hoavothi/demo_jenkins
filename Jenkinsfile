@@ -10,6 +10,8 @@ pipeline {
         stage('Stage 2'){
            steps{
               echo 'hello hoa'
+              echo 'hello hoa'
+              echo 'hello hoa'
            }
         }
     }
