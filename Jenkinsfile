@@ -9,7 +9,7 @@ pipeline {
 
         stage('Stage 2){
            steps{
-              eho 'hello hoa'
+              echo 'hello hoa'
            }
         }
     }
