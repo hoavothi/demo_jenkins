@@ -1,11 +1,11 @@
 pipeline {
     agent any
     stages {
-        agent {
-                docker { image 'node:7-alpine' }
-            }
 
         stage('Check') {
+             agent{
+                 docker { image 'node:7-alpine' }
+             }
             steps {
                echo 'LOG ENV VARIABLE'
                sh 'env'
