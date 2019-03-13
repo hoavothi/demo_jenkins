@@ -1,18 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Stage 1') {
+        stage('Check') {
             steps {
-                echo 'Hello world! That is demo'
+               echo "LOG ENV VARIABLE"
+               sh "env"
             }
-        }
-
-        stage('Stage 2'){
-           steps{
-              echo 'hello hoa'
-              echo 'hello hoa'
-              echo 'hello hoa'
-           }
         }
     }
 }
+gi
