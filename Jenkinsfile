@@ -15,7 +15,7 @@ pipeline {
     post{
           always{
                      echo 'Archive artifact'
-                     archiveArtifacts artifacts: 'app/build/outputs/**'
+                     archiveArtifacts artifacts: 'app/build/outputs/'
                }
 
     }
