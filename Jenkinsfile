@@ -3,10 +3,9 @@ pipeline {
     stages {
         stage('Check') {
             steps {
-               echo "LOG ENV VARIABLE"
-               sh "env"
+               echo 'LOG ENV VARIABLE'
+               sh 'env'
             }
         }
     }
 }
-gi
