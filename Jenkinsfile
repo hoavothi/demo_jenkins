@@ -14,8 +14,8 @@ pipeline {
 
     post{
           always{
-                      echo 'Report unit test to jenkins!!!'
-                      junit '**/test-result1s/**/*.xml'
+                     echo 'Archive artifact'
+                     archiveArtifacts artifacts: 'app/build/outputs/**'
                }
 
     }
