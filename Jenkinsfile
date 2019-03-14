@@ -14,6 +14,11 @@ pipeline {
     }
 
     post{
+         always{
+            echo 'Archive artifact'
+            archiveArtifacts artifacts: 'app/build/outputs/**'
+         }
+
          success{
              echo "sucess"
          }
