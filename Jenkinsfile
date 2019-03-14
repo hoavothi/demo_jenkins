@@ -3,9 +3,6 @@ pipeline {
     stages {
 
         stage('Check') {
-             agent{
-                 docker { image 'node:7-alpine' }
-             }
             steps {
                echo 'LOG ENV VARIABLE'
                sh 'env'
