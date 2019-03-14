@@ -19,5 +19,6 @@ docker-check-image:
 
 check-run:
 	@echo ":::Running Check Container"
-	pwd
+	 cd pwd
+	 ls -a
 
