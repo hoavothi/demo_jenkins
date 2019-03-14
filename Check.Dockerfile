@@ -11,5 +11,5 @@ RUN mkdir -p $GRADLE_USER_CACHE
 
 WORKDIR $PROJECT_DIR
 
-CMD  cd .. && cp local.properties /project && cd /project && ls -a && ./gradlew :app:assembleDebug
+CMD  ls -a && cd .. && cp local.properties /project && cd /project && ls -a && ./gradlew :app:assembleDebug
 
