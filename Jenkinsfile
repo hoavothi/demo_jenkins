@@ -2,21 +2,16 @@ pipeline {
     agent any
 
     stages {
-        stage('Prepare Env') {
-            agent {
-                   dockerfile {
-                           filename 'Env.Dockerfile'
-                           additionalBuildArgs  '--build-arg version=1.0.1'
-                       }
-               }
 
-            steps{
-               echo 'Prepare enviroment'
-            }
-
-        }
 
         stage('Check') {
+            agent {
+                               dockerfile {
+                                       filename 'Env.Dockerfile'
+                                       additionalBuildArgs  '--build-arg version=1.0.1'
+                               }
+            }
+
             steps {
                echo 'LOG ENV VARIABLE'
                sh 'env'
