@@ -2,14 +2,20 @@ pipeline {
     agent any
 
     stages {
+        stage('Prepare Env') {
+            steps{
+               echo 'Prepare enviroment'
+               sh 'make pre'
+            }
 
+        }
 
         stage('Check') {
-            agent {
-                               dockerfile {
-                                       filename 'Env.Dockerfile'
-                                       additionalBuildArgs  '--build-arg version=1.0.1'
-                               }
+            agent{
+                docker{
+                  image 'fr/android-env'
+                  args '-v $WORKSPACE:/project'
+                }
             }
 
             steps {
