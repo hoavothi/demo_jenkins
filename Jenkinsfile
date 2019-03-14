@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        dockerfile {
-                filename 'Env.Dockerfile'
-                additionalBuildArgs  '--build-arg version=1.0.1'
-            }
-    }
+    agent any
     stages {
         stage('Check') {
             steps {
