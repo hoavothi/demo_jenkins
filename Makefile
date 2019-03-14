@@ -5,6 +5,7 @@ CHECK_IMAGE_NAME=fr/android-check
 
 ####
 
+pre:  docker-env-image
 check: docker-env-image docker-check-image check-run
 
 
