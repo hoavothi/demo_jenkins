@@ -11,5 +11,5 @@ RUN mkdir -p $GRADLE_USER_CACHE
 
 
 
-CMD  ls -a
+CMD  ls -a && cd project && ls -a
 
