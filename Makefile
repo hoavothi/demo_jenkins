@@ -19,7 +19,7 @@ docker-check-image:
 
 check-run:
 	@echo ":::Running Check Container"
-	 cd /var/jenkins_home/workspace/demo_jenkins_test2-HKW52ZEPKO7VGTCD5TNSE4647HCWMVDJVIV75OPMX5YENCJH6IRA && ls -a
+	 pwd && cd /var/jenkins_home/workspace/demo_jenkins_test2-HKW52ZEPKO7VGTCD5TNSE4647HCWMVDJVIV75OPMX5YENCJH6IRA && ls -a
 	 docker run -i --rm \
              -v $(shell pwd):/project \
              -v $(HOME)/.gradle:/.gradle_cache \
