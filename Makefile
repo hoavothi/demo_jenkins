@@ -22,7 +22,5 @@ check-run:
 	docker run -i --rm \
         -v $(shell pwd):/project \
         -v $(HOME)/.gradle:/.gradle_cache \
-        --env-file env.list \
-        -e JENKINS_URL=$(JENKINS_URL) \
         $(CHECK_IMAGE_NAME)
 
