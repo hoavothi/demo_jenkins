@@ -19,8 +19,5 @@ docker-check-image:
 
 check-run:
 	@echo ":::Running Check Container"
-	docker run -i --rm \
-        -v $(shell pwd):/project \
-        -v $(HOME)/.gradle:/.gradle_cache \
-        $(CHECK_IMAGE_NAME)
+	pwd
 
