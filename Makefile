@@ -5,8 +5,8 @@ CHECK_IMAGE_NAME=fr/android-check
 
 ####
 
-pre:  docker-env-image
-check: docker-check-image check-run
+#pre:  docker-env-image
+check: docker-env-image docker-check-image check-run
 
 
 docker-env-image:
@@ -22,6 +22,7 @@ check-run:
 	@echo ":::Running Check Container"
 	 pwd && cd /var/jenkins_home/workspace/demo_jenkins_test2-HKW52ZEPKO7VGTCD5TNSE4647HCWMVDJVIV75OPMX5YENCJH6IRA && ls -a
 	 docker run -i --rm \
+	         -v /var/jenkins_home:/var/jenkins_home
              -v $(shell pwd):/project \
              -v $(HOME)/.gradle:/.gradle_cache \
              $(CHECK_IMAGE_NAME)

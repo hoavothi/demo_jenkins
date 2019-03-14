@@ -2,21 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Prepare Env') {
-            steps{
-               echo 'Prepare enviroment'
-               sh 'make pre'
-            }
-
-        }
 
         stage('Check') {
-            agent{
-                docker{
-                  image 'fr/android-env'
-                  args '-v $WORKSPACE:/project'
-                }
-            }
+
 
             steps {
                echo 'LOG ENV VARIABLE'
