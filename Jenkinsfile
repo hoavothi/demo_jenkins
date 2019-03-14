@@ -3,7 +3,6 @@ pipeline {
         dockerfile {
                 filename 'Env.Dockerfile'
                 dir 'Demo'
-                label 'env_agent'
                 additionalBuildArgs  '--build-arg version=1.0.1'
             }
     }
