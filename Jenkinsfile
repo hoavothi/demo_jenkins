@@ -10,6 +10,10 @@ pipeline {
                        }
                }
 
+            steps{
+               echo 'Prepare enviroment'
+            }
+
         }
 
         stage('Check') {
