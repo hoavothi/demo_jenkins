@@ -21,5 +21,5 @@ check-run:
 	@echo ":::Running Check Container"
 	 rsync -avzh $(pwd) /tmp/
 	 docker run --name android-check-abcd -i --rm \
-	                    -v /tmp/data:/tmp/\
+	                    -v /tmp :/tmp/\
                         $(CHECK_IMAGE_NAME)
