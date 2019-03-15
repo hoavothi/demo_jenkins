@@ -24,6 +24,7 @@ check-run:
 	 docker run -i --rm \
 	         -v /var/jenkins_home:/var/jenkins_home\
              -v $(shell pwd):/var/jenkins_home/project \
+             -v /var/run/docker.sock:/var/run/docker.sock\
              -v $(HOME)/.gradle:/.gradle_cache \
              $(CHECK_IMAGE_NAME)
 
