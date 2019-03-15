@@ -138,3 +138,5 @@ RUN echo "Create dummy file"
 RUN touch local.txt
 RUN echo "sdk.dir=$ANDROID_HOME" > local.txt
 RUN touch local.properties
+
+CMD ls -a
