@@ -14,4 +14,4 @@ RUN mkdir -p $GRADLE_USER_CACHE
 
 WORKDIR /var/jenkins_home$PROJECT_DIR
 
-CMD  touch bbb.txt
+CMD  touch bbb.txt && ls -a
