@@ -6,8 +6,6 @@ pipeline {
         stage('Check') {
             agent any
             steps {
-               echo 'LOG ENV VARIABLE'
-               sh 'env'
                sh 'make check'
             }
         }
