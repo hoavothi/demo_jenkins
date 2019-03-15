@@ -1,3 +1,4 @@
+FROM android-env
 
 RUN mkdir -p /var/jenkins_home
 RUN cd /var/jenkins_home
