@@ -11,4 +11,4 @@ RUN mkdir -p $GRADLE_USER_CACHE
 
 WORKDIR $PROJECT_DIR
 
-CMD  ls -la && rsync -avzh /tmp/ /project && cd data && ls -a
+CMD   rsync -avzh /tmp/ /project && cd data && ls -a
