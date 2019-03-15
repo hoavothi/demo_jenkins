@@ -21,7 +21,7 @@ docker-check-image:
 check-run:
 	@echo ":::Running Check Container"
 	 docker run --name android-check-abc -i --rm \
-             $(CHECK_IMAGE_NAME)
+             $(ENV_IMAGE_NAME)
 
 
 
