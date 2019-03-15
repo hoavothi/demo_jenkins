@@ -1,10 +1,10 @@
 pipeline {
-    agent none
+    agent any
 
     stages {
 
         stage('Check') {
-            agent any
+
             steps {
                sh 'make check'
             }
