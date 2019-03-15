@@ -1,5 +1,8 @@
 FROM android-env
 
+RUN mkdir -p /var/jenkins_home
+RUN cd /var/jenkins_home
+
 ENV PROJECT_DIR /project
 RUN mkdir -p PROJECT_DIR
 
