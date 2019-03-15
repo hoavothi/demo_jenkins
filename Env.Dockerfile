@@ -131,5 +131,6 @@ RUN chmod -R a+rx $ANDROID_HOME $ANDROID_SDK_HOME
 #RUN chown -R $RUN_USER:$RUN_USER $ANDROID_NDK_HOME
 #RUN chmod -R a+rx $ANDROID_NDK_HOME
 
+RUN touch local.properties
 RUN echo "ndk.dir=$ANDROID_NDK_HOME" > local.properties
 RUN echo "sdk.dir=$ANDROID_HOME" > local.properties
