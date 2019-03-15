@@ -6,7 +6,6 @@ SC_IMAGE_NAME=fr/android-check-second
 
 ####
 
-#pre:  docker-env-image
 check: docker-env-image docker-check-image check-run
 
 
@@ -22,6 +21,3 @@ check-run:
 	@echo ":::Running Check Container"
 	 docker run --name android-check-abcd -i \
                         $(CHECK_IMAGE_NAME)
-
-
-

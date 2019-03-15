@@ -1,8 +1,5 @@
 FROM fr/android-env
 
-RUN mkdir -p /var/jenkins_home
-RUN cd /var/jenkins_home
-
 ENV PROJECT_DIR /project
 RUN mkdir -p PROJECT_DIR
 
@@ -12,6 +9,6 @@ RUN mkdir -p $GRADLE_USER_HOME
 ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
-WORKDIR /var/jenkins_home$PROJECT_DIR
+WORKDIR $PROJECT_DIR
 
-CMD  ls -la / && touch bbb.txt && ls -a
+CMD  ls -a
