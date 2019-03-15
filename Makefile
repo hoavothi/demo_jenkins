@@ -28,7 +28,7 @@ check-run:
              -v $(pwd):/var/jenkins_home/project \
              -v /var/run/docker.sock:/var/run/docker.sock \
              -v $(HOME)/.gradle:/.gradle_cache \
-             $(SC_IMAGE_NAME)
+             $(CHECK_IMAGE_NAME)
 
 
 
