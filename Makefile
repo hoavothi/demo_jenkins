@@ -20,7 +20,6 @@ docker-check-image:
 
 check-run:
 	@echo ":::Running Check Container"
-	 cd .. && ls -a && cd .. && ls -a && cd .. && ls -a && pwd && ls -a && pwd && cd /var/jenkins_home/workspace/demo_jenkins_test2-HKW52ZEPKO7VGTCD5TNSE4647HCWMVDJVIV75OPMX5YENCJH6IRA && ls -a
 	 docker run --name android-check-abc -i --rm \
              -v /var/run/docker.sock:/var/run/docker.sock \
              $(CHECK_IMAGE_NAME)
