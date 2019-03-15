@@ -23,5 +23,8 @@ check-run:
 	 docker run --name android-check-abc -i --rm \
              $(ENV_IMAGE_NAME)
 
+      docker run --name android-check-abc -i --rm \
+                   $(CHECK_IMAGE_NAME)
+
 
 
