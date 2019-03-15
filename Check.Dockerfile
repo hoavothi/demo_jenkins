@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM fr/android-env
 
 RUN mkdir -p /var/jenkins_home
 RUN cd /var/jenkins_home
