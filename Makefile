@@ -2,6 +2,7 @@
 # Image names for docker
 ENV_IMAGE_NAME=fr/android-env
 CHECK_IMAGE_NAME=fr/android-check
+SC_IMAGE_NAME=fr/android-check-second
 
 ####
 
@@ -17,6 +18,7 @@ docker-check-image:
 	@echo ":::Building Code check Images"
 	docker build --rm -f Check.Dockerfile -t $(CHECK_IMAGE_NAME) .
 
+	docker build --rm -f Second.Dockerfile -t $(SC_IMAGE_NAME) .
 
 check-run:
 	@echo ":::Running Check Container"
@@ -26,7 +28,7 @@ check-run:
              -v $(pwd):/var/jenkins_home/project \
              -v /var/run/docker.sock:/var/run/docker.sock \
              -v $(HOME)/.gradle:/.gradle_cache \
-             $(CHECK_IMAGE_NAME)
+             $(SC_IMAGE_NAME)
 
 
 
