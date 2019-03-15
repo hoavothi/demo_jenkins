@@ -1,4 +1,4 @@
-FROM android-env
+FROM ruby:latest
 
 RUN mkdir -p /var/jenkins_home
 RUN cd /var/jenkins_home
