@@ -1,9 +1,10 @@
 pipeline {
-    agent any
+    agent none
 
     stages {
 
         stage('Check') {
+            agent any
             steps {
                echo 'LOG ENV VARIABLE'
                sh 'env'
