@@ -20,7 +20,7 @@ docker-check-image:
 
 docker-volume:
 	@echo ":::Building Android Volume"
-	docker volume create DataVolume .
+	docker volume create DataVolume
 
 check-run:
 	@echo ":::Running Check Container"
