@@ -10,7 +10,7 @@ envi: docker-volume
 check: docker-env-image docker-check-image check-run
 
 docker-volume:
-    @echo ":::Building Android Volume "
+    @echo ":::Building Android Volume"
     docker volume create --name Data
 
 docker-env-image:
