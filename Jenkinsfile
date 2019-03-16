@@ -3,7 +3,11 @@ pipeline {
 
     stages {
 
-
+        stage('Prepare ENV'){
+            steps {
+               sh 'make volum'
+            }
+        }
 
         stage('Check') {
             steps {
