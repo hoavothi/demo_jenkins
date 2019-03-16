@@ -5,7 +5,7 @@ pipeline {
 
         stage('Prepare ENV'){
             steps{
-               sh 'make enviroment'
+               sh 'make envi'
             }
         }
 

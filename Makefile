@@ -6,7 +6,7 @@ SC_IMAGE_NAME=fr/android-check-second
 
 ####
 
-enviroment: docker-volume
+envi: docker-volume
 check: docker-env-image docker-check-image check-run
 
 docker-volume:
