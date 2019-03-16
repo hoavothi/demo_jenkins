@@ -4,8 +4,8 @@ pipeline {
     stages {
 
         stage('Prepare ENV'){
-            steps{
-               sh 'make envi'
+            steps {
+               sh 'make volum'
             }
         }
 
