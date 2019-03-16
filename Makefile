@@ -25,6 +25,7 @@ docker-volume:
 check-run:
 	@echo ":::Running Check Container"
 	 rsync -avzh $(pwd) /tmp/
-	 cd /tmp/
-	 ls -a
+	 docker run --name android-check -i --rm\
+     	                    -v /tmm/data:/project \
+                             $(CHECK_IMAGE_NAME)
 
