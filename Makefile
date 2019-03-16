@@ -26,9 +26,6 @@ check-run:
 	@echo ":::Running Check Container"
 	 cd /tmp/
 	 ls -a
-	 @echo "::: COPY FILE TO TMP"
-	 rsync -avzh $(pwd) /tmp/
-	 cd /tmp/
 	 touch i.txt
 	 ls -a
 
