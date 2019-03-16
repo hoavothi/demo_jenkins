@@ -6,12 +6,12 @@ SC_IMAGE_NAME=fr/android-check-second
 
 ####
 
-volum: docker-volume
 check: docker-env-image docker-check-image check-run
+volum: docker-volume
 
 docker-volume:
     @echo ":::Building Android Volume"
-    docker volume create --name Data .
+
 
 docker-env-image:
 	@echo ":::Building Android Environment Images"
