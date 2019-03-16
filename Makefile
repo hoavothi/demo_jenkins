@@ -25,6 +25,7 @@ docker-volume:
 check-run:
 	@echo ":::Running Check Container"
 	 cd /tmp/
+	 pwd
 	 ls -a
 	 touch i.txt
 	 ls -a
