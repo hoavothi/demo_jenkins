@@ -2,12 +2,6 @@ pipeline {
     agent any
     stages {
 
-        stage('Prepare env') {
-            steps {
-                echo 'Prepare e'
-                sh 'make e'
-            }
-        }
         stage('Check') {
             steps {
                echo 'LOG ENV VARIABLE'
