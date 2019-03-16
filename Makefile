@@ -7,6 +7,7 @@ SC_IMAGE_NAME=fr/android-check-second
 ####
 
 check: docker-env-image docker-check-image check-run
+e: docker-volume
 
 
 docker-env-image:
@@ -17,9 +18,13 @@ docker-check-image:
 	@echo ":::Building Code check Images"
 	docker build --rm -f Check.Dockerfile -t $(CHECK_IMAGE_NAME) .
 
+docker-volume:
+	@echo ":::Building Android Volume"
+	docker volume create --name DataVolume .
+
 check-run:
 	@echo ":::Running Check Container"
 	 rsync -avzh $(pwd) /tmp/
-	 docker run --name android-check-abcd -i \
-	                    -v /tmp/data/:/project \
+	 docker run --name android-check -i --rm\
+	                    -v DataVolume:/project \
                         $(CHECK_IMAGE_NAME)
