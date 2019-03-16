@@ -1,13 +1,19 @@
 pipeline {
     agent any
+
     stages {
+
+        stage('Prepare ENV'){
+            steps{
+               sh 'make enviroment'
+            }
+        }
+
         stage('Check') {
             steps {
                sh 'make check'
             }
         }
-
-
     }
 
     post{

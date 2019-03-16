@@ -6,8 +6,12 @@ SC_IMAGE_NAME=fr/android-check-second
 
 ####
 
+enviroment: docker-volume
 check: docker-env-image docker-check-image check-run
 
+docker-volume:
+    @echo ":::Building Android Volume "
+    docker volume create --name Data
 
 docker-env-image:
 	@echo ":::Building Android Environment Images"
@@ -19,8 +23,6 @@ docker-check-image:
 
 check-run:
 	@echo ":::Running Check Container"
-	 rsync -avzh $(pwd) /tmp/
-	 docker cp /tmp/ jenkin-docker:/tmp/data/
 	 docker run --name android-check -i \
-	                    -v /tmp/data/:/project \
+	                    -v Data:/project \
                         $(CHECK_IMAGE_NAME)
