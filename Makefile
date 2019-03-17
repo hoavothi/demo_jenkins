@@ -26,7 +26,6 @@ check-run:
 	@echo ":::Running Check Container"
 	 echo $"${PWD##*/}"
 	 @echo ":::Running Check Container 1"
-     echo "$${PWD##*/}"
 	 docker run --name android-check -i --rm\
      	                    -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
                              $(CHECK_IMAGE_NAME)
