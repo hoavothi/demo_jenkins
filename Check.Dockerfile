@@ -9,6 +9,4 @@ RUN mkdir -p $GRADLE_USER_HOME
 ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
-WORKDIR $PROJECT_DIR
-
-CMD   cd  /.gradle && ls -a && ./gradlew assembleDebug \
+CMD   cp local.properties /project && cd /project && ./gradlew assembleDebug \
