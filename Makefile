@@ -6,7 +6,7 @@ SC_IMAGE_NAME=fr/android-check-second
 
 ####
 
-check: docker-check-image check-run
+check: docker-env-image docker-check-image check-run
 pre-env: docker-env-image
 
 
