@@ -23,6 +23,5 @@ check-run:
 	 docker run --name android-check -i --rm \
      	                    -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
      	                    -v /tmp/data/.gradle:/.gradle \
-     	                    -v /tmp/data/sdk:/usr/local/android-sdk \
                              $(CHECK_IMAGE_NAME)
 
