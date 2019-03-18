@@ -11,13 +11,6 @@ pipeline {
         }
 
 
-         stage('Check 2') {
-                    steps {
-                       echo 'CHECK 2'
-                       sh 'make check'
-                    }
-         }
-
     }
 
     post{
