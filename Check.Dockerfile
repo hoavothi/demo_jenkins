@@ -9,6 +9,6 @@ RUN mkdir -p $GRADLE_USER_HOME
 ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
-WORKDIR PROJECT_DIR
+WORKDIR $PROJECT_DIR
 
-CMD  ls -a && ./gradlew assembleDebug \
+CMD  ./gradlew assembleDebug \
