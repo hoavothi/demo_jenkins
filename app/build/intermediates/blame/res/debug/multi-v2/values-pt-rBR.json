@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/project/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/Users/mba0135s/Desktop/pr/Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/133fb702e8fa23a1740e36a0620862d4/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/Users/mba0135s/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d1af57ede7c8ddccd30a9da54bfb507/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fc971a4fc02b0378fe6210baa758c5a/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f93c17a2596b9211b0e4544ea61780fd/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

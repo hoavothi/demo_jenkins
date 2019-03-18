@@ -1,156 +1,156 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:2:1-19:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/133fb702e8fa23a1740e36a0620862d4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71acd617f0807c80f32b7bbd8f9f5630/AndroidManifest.xml:2:1-11:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/c3cdffb42f6d836bcc24dbd126d2b182/AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/2e7fdf5a22113e7d39d1cb066e63a50c/AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/738df02e11bd345a0c78ebe8430eb0ec/AndroidManifest.xml:22:1-33:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2d979d8a2d1c44486cb528dcbe14bb07/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-fragment:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dfcfa46f7969ec081284617c8dc1607e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a22bfa2011e9f5d71bc252a13899a6dd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/967b4ff84a9221c178ff353d20bc9c33/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/47bff76f0c0ee722c863487e11a8a3ac/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d9655abee2202658f1e2d7d360738e1f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fc971a4fc02b0378fe6210baa758c5a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0773c437f05167f928144c5126505147/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc823e0e76311212ba4c03eb841fe31c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3c010287c24ea70c3f037d408e09aeef/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c7d077ca5c4658e416364f21341a19bd/AndroidManifest.xml:17:1-22:12
-INJECTED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d1af57ede7c8ddccd30a9da54bfb507/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f056f8da4abfd2fb63b488f16ee36312/AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3068e4321f523f4eeb93f71ff66951db/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/0599f9a6aa2b011a111171ae24cc5841/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/1475376567a9eabf0d0cf5381c0b25dc/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/ea796b2496ff1758453c014793fb4b7a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/0ccd85bf75e767d13e45aba2a0521368/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1e986607321b883cfc647f28c46077b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/18bfc73d96a8c08bd355d4505a771a7d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4f1b7dbb874b9b338b0ea07188092395/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/25d1faa0ce3e478f21d1c08e6cb7f536/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f93c17a2596b9211b0e4544ea61780fd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ec4aa5dd8fdcb68bc6bc424b1c62f952/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8f1aa41ad34a3bcfaa25b72e04dc5559/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/46e605d41c4b85e75ba0a2529ba13578/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b87c34c23e1d863ec4acb71d06576b35/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from /project/app/src/main/AndroidManifest.xml:3:5-30
-		INJECTED from /project/app/src/main/AndroidManifest.xml
-		INJECTED from /project/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /project/app/src/main/AndroidManifest.xml
-		ADDED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /project/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /project/app/src/main/AndroidManifest.xml
-		ADDED from /project/app/src/main/AndroidManifest.xml:2:1-25:12
-		INJECTED from /project/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /project/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /project/app/src/main/AndroidManifest.xml:5:5-23:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:11:5-17:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:11:5-17:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71acd617f0807c80f32b7bbd8f9f5630/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71acd617f0807c80f32b7bbd8f9f5630/AndroidManifest.xml:9:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/c3cdffb42f6d836bcc24dbd126d2b182/AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/c3cdffb42f6d836bcc24dbd126d2b182/AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/2e7fdf5a22113e7d39d1cb066e63a50c/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/2e7fdf5a22113e7d39d1cb066e63a50c/AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/738df02e11bd345a0c78ebe8430eb0ec/AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/738df02e11bd345a0c78ebe8430eb0ec/AndroidManifest.xml:31:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2d979d8a2d1c44486cb528dcbe14bb07/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2d979d8a2d1c44486cb528dcbe14bb07/AndroidManifest.xml:11:5-20
+ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:5:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f056f8da4abfd2fb63b488f16ee36312/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f056f8da4abfd2fb63b488f16ee36312/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3068e4321f523f4eeb93f71ff66951db/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3068e4321f523f4eeb93f71ff66951db/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/0599f9a6aa2b011a111171ae24cc5841/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/0599f9a6aa2b011a111171ae24cc5841/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/1475376567a9eabf0d0cf5381c0b25dc/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/1475376567a9eabf0d0cf5381c0b25dc/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/ea796b2496ff1758453c014793fb4b7a/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/ea796b2496ff1758453c014793fb4b7a/AndroidManifest.xml:11:5-20
 	android:supportsRtl
-		ADDED from /project/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /project/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /project/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /project/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /project/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /project/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.rimoka.demo.MainActivity
-ADDED from /project/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /project/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /project/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /project/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /project/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /project/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /project/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:16:27-74
 meta-data#io.fabric.ApiKey
-ADDED from /project/app/src/main/AndroidManifest.xml:20:9-22:72
+ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:20:9-22:72
 	android:value
-		ADDED from /project/app/src/main/AndroidManifest.xml:22:13-69
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:22:13-69
 	android:name
-		ADDED from /project/app/src/main/AndroidManifest.xml:21:13-44
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml:21:13-44
 uses-sdk
-INJECTED from /project/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /project/app/src/main/AndroidManifest.xml
-INJECTED from /project/app/src/main/AndroidManifest.xml
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:appcompat-v7:27.1.1] /.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/133fb702e8fa23a1740e36a0620862d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/133fb702e8fa23a1740e36a0620862d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71acd617f0807c80f32b7bbd8f9f5630/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71acd617f0807c80f32b7bbd8f9f5630/AndroidManifest.xml:5:5-7:41
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/c3cdffb42f6d836bcc24dbd126d2b182/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/c3cdffb42f6d836bcc24dbd126d2b182/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/2e7fdf5a22113e7d39d1cb066e63a50c/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/2e7fdf5a22113e7d39d1cb066e63a50c/AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/738df02e11bd345a0c78ebe8430eb0ec/AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/738df02e11bd345a0c78ebe8430eb0ec/AndroidManifest.xml:27:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2d979d8a2d1c44486cb528dcbe14bb07/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2d979d8a2d1c44486cb528dcbe14bb07/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-fragment:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dfcfa46f7969ec081284617c8dc1607e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dfcfa46f7969ec081284617c8dc1607e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a22bfa2011e9f5d71bc252a13899a6dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a22bfa2011e9f5d71bc252a13899a6dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/967b4ff84a9221c178ff353d20bc9c33/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/967b4ff84a9221c178ff353d20bc9c33/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/47bff76f0c0ee722c863487e11a8a3ac/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/47bff76f0c0ee722c863487e11a8a3ac/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d9655abee2202658f1e2d7d360738e1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d9655abee2202658f1e2d7d360738e1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fc971a4fc02b0378fe6210baa758c5a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fc971a4fc02b0378fe6210baa758c5a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0773c437f05167f928144c5126505147/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0773c437f05167f928144c5126505147/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc823e0e76311212ba4c03eb841fe31c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bc823e0e76311212ba4c03eb841fe31c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3c010287c24ea70c3f037d408e09aeef/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3c010287c24ea70c3f037d408e09aeef/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c7d077ca5c4658e416364f21341a19bd/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c7d077ca5c4658e416364f21341a19bd/AndroidManifest.xml:20:5-44
-INJECTED from /project/app/src/main/AndroidManifest.xml
-INJECTED from /project/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d1af57ede7c8ddccd30a9da54bfb507/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6d1af57ede7c8ddccd30a9da54bfb507/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f056f8da4abfd2fb63b488f16ee36312/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f056f8da4abfd2fb63b488f16ee36312/AndroidManifest.xml:5:5-7:41
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3068e4321f523f4eeb93f71ff66951db/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3068e4321f523f4eeb93f71ff66951db/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/0599f9a6aa2b011a111171ae24cc5841/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/0599f9a6aa2b011a111171ae24cc5841/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/1475376567a9eabf0d0cf5381c0b25dc/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/1475376567a9eabf0d0cf5381c0b25dc/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/ea796b2496ff1758453c014793fb4b7a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/ea796b2496ff1758453c014793fb4b7a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/0ccd85bf75e767d13e45aba2a0521368/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/0ccd85bf75e767d13e45aba2a0521368/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1e986607321b883cfc647f28c46077b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1e986607321b883cfc647f28c46077b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/18bfc73d96a8c08bd355d4505a771a7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/18bfc73d96a8c08bd355d4505a771a7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4f1b7dbb874b9b338b0ea07188092395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4f1b7dbb874b9b338b0ea07188092395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/25d1faa0ce3e478f21d1c08e6cb7f536/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/25d1faa0ce3e478f21d1c08e6cb7f536/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f93c17a2596b9211b0e4544ea61780fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f93c17a2596b9211b0e4544ea61780fd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ec4aa5dd8fdcb68bc6bc424b1c62f952/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ec4aa5dd8fdcb68bc6bc424b1c62f952/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8f1aa41ad34a3bcfaa25b72e04dc5559/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8f1aa41ad34a3bcfaa25b72e04dc5559/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/46e605d41c4b85e75ba0a2529ba13578/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/46e605d41c4b85e75ba0a2529ba13578/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b87c34c23e1d863ec4acb71d06576b35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b87c34c23e1d863ec4acb71d06576b35/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /project/app/src/main/AndroidManifest.xml
-		ADDED from /project/app/src/main/AndroidManifest.xml
-		INJECTED from /project/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /project/app/src/main/AndroidManifest.xml
-		ADDED from /project/app/src/main/AndroidManifest.xml
-		INJECTED from /project/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mba0135s/Desktop/pr/Demo/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/c3cdffb42f6d836bcc24dbd126d2b182/AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/c3cdffb42f6d836bcc24dbd126d2b182/AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/2e7fdf5a22113e7d39d1cb066e63a50c/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/2e7fdf5a22113e7d39d1cb066e63a50c/AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/738df02e11bd345a0c78ebe8430eb0ec/AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/738df02e11bd345a0c78ebe8430eb0ec/AndroidManifest.xml:29:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2d979d8a2d1c44486cb528dcbe14bb07/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2d979d8a2d1c44486cb528dcbe14bb07/AndroidManifest.xml:9:5-67
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3068e4321f523f4eeb93f71ff66951db/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3068e4321f523f4eeb93f71ff66951db/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/0599f9a6aa2b011a111171ae24cc5841/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/0599f9a6aa2b011a111171ae24cc5841/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/1475376567a9eabf0d0cf5381c0b25dc/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/1475376567a9eabf0d0cf5381c0b25dc/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/ea796b2496ff1758453c014793fb4b7a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/ea796b2496ff1758453c014793fb4b7a/AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:9:22-64
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:9:22-64
 provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:12:9-16:38
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:12:9-16:38
 	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:14:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:14:13-75
 	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:15:13-37
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:16:13-35
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:16:13-35
 	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/1543422258a5720f43fc7cb8c458e522/AndroidManifest.xml:13:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/mba0135s/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/3b95806dd572e09931e26310c089a935/AndroidManifest.xml:13:13-75

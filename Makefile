@@ -25,7 +25,6 @@ docker-volume:
 check-run:
 	 @echo ":::Running Check Container"
 	 docker run --name android-check -i \
-	                        --user 1000:1000 \
      	                    -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
                              $(CHECK_IMAGE_NAME)
 
