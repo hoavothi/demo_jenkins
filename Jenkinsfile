@@ -9,9 +9,9 @@ pipeline {
             }
         }
 
-        stage('Check 1') {
+        stage('Check 2') {
                     steps {
-                       echo 'CHECK 1'
+                       echo 'CHECK 2'
                        sh 'make check'
                     }
         }
