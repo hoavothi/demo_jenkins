@@ -26,6 +26,6 @@ check-run:
 	 @echo ":::Running Check Container"
 	 docker run --name android-check -i --rm \
      	                    -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
-     	                    -v /tmp/data/.gradle:/.gradle_cache
+     	                    -v /tmp/data/.gradle:/.gradle_cache \
                              $(CHECK_IMAGE_NAME)
 
