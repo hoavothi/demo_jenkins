@@ -87,8 +87,8 @@ RUN yes | /usr/local/android-sdk/tools/bin/sdkmanager --licenses
 
 RUN yes | /usr/local/android-sdk/tools/bin/sdkmanager \
 "platform-tools" \
-"platforms;android-26" \
-"build-tools;26.0.2"
+"platforms;android-27" \
+"build-tools;27.0.3"
 
 # Install Android NDK
 #RUN wget http://dl.google.com/android/repository/android-ndk-r12-linux-x86_64.zip
