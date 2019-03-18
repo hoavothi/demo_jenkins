@@ -2,14 +2,21 @@ pipeline {
     agent any
     stages {
 
-        stage('Check') {
+
+        stage('Check 1') {
             steps {
-               echo 'LOG ENV VARIABLE'
-               sh 'env'
+               echo 'CHECK 1'
                sh 'make check'
             }
         }
 
+
+         stage('Check 2') {
+                    steps {
+                       echo 'CHECK 2'
+                       sh 'make check'
+                    }
+         }
 
     }
 
