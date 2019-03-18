@@ -2,14 +2,12 @@ pipeline {
     agent any
     stages {
 
-
         stage('Check 1') {
             steps {
                echo 'CHECK 1'
                sh 'make check'
             }
         }
-
 
     }
 
