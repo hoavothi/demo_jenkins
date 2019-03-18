@@ -2,6 +2,14 @@ pipeline {
     agent any
     stages {
 
+        stage('PREPARE ENV'){
+
+           steps{
+               echo 'PREPARE ENV'
+               sh 'make pre-env'
+           }
+        }
+
         stage('Check 1') {
             steps {
                echo 'CHECK 1'
@@ -14,7 +22,7 @@ pipeline {
                        echo 'CHECK 2'
                        sh 'make check'
                     }
-        }
+                }
 
     }
 
