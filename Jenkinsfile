@@ -15,11 +15,11 @@ pipeline {
                parallel(
                  Deploy1: {
                    echo 'CHECK 1'
-                   sh 'make check1'
+                   sh 'make check'
                  },
                 Deploy2: {
                    echo 'CHECK 2'
-                   sh 'make check2'
+                   sh 'make check'
                  }
                )
            }
