@@ -20,8 +20,8 @@ docker-check-image:
 
 check-run:
 	 @echo ":::Running Check Container"
-	 docker run --name android-check -i --rm \
-     	                    -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
-     	                    -v /tmp/data/.gradle:/.gradle \
-                             $(CHECK_IMAGE_NAME)
+	 docker run -i --rm \
+     	   -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
+     	   -v /tmp/data/.gradle:/.gradle \
+            $(CHECK_IMAGE_NAME)
 
