@@ -11,4 +11,4 @@ RUN mkdir -p $GRADLE_USER_CACHE
 
 CMD  rsync -a --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
      cd /project && ./gradlew assembleDebug && \
-     rsync -au ${GRADLE_USER_HOME}/caches ${GRADLE_USER_HOME}/wrapper ${GRADLE_USER_CACHE}/ || true
+     rsync -au ${GRADLE_USER_HOME}/wrapper ${GRADLE_USER_CACHE}/ || true
