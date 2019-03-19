@@ -13,6 +13,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Fabric.with(this, Crashlytics())
-        i("TAGG", "demo " + 5 / 0)
     }
 }
