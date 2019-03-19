@@ -1,31 +1,26 @@
 pipeline {
     agent any
     stages {
-
-
         stage('PREPARE ENV'){
-
            steps{
                echo 'PREPARE ENV'
                sh 'make pre-env'
            }
         }
 
-        stage('DEPLOY'){
-
-           steps {
-               parallel(
-                 Deploy1: {
-                   echo 'CHECK 1'
-                   sh 'make check'
-                 },
-                Deploy2: {
-                   echo 'CHECK 2'
-                   sh 'make check'
-                 }
-               )
-           }
+        stage('Check 1') {
+            steps {
+               echo 'CHECK 1'
+               sh 'make check'
+            }
         }
+
+        stage('Check 2') {
+                    steps {
+                       echo 'CHECK 2'
+                       sh 'make check'
+                    }
+                }
     }
 
     post{
