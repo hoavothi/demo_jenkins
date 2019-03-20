@@ -22,6 +22,7 @@ check-run:
 	 @echo ":::Running Check Container"
 	 docker run -i --rm \
      	   -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
-     	   -v /tmp/data/.gradle:/.gradle \
+     	   -v /tmp/data/.gradle:/.gradle_cache \
+     	   -e DANGER_GITHUB_API_TOKEN=${DANGER_GITHUB_API_TOKEN} \
             $(CHECK_IMAGE_NAME)
 
