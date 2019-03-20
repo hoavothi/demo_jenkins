@@ -10,8 +10,6 @@ ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
 COPY Gemfile* /tmp/
-COPY Gemfile* /tmp/
-WORKDIR /tmp
 RUN bundle check || bundle install
 
 CMD  ls -a && rsync -a --include ${GRADLE_USER_CACHE}/caches  --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
