@@ -14,15 +14,6 @@ pipeline {
                sh 'make check'
             }
         }
-
-        stage('Check 2') {
-                    steps {
-                       echo 'CHECK 2'
-                       sh 'gem install bundle'
-                       sh 'bundle install --path vendor/bundle'
-                       sh 'bundle exec danger'
-                    }
-                }
     }
 
     post{
