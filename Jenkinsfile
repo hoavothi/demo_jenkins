@@ -12,7 +12,6 @@ pipeline {
             steps {
                echo 'CHECK 1'
                sh 'env'
-               sh 'cat env.list'
                sh 'make check'
             }
         }
