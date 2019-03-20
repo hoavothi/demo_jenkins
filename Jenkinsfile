@@ -1,5 +1,9 @@
 pipeline {
     agent any
+
+    environment {
+        DANGER_GITHUB_API_TOKEN = 1812cdb041404bf15e5f5682ff99f9efad1701ee
+    }
     stages {
         stage('PREPARE ENV'){
            steps{
