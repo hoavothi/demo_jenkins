@@ -11,6 +11,8 @@ pipeline {
         stage('Check 1') {
             steps {
                echo 'CHECK 1'
+               sh 'env'
+               sh 'cat env.list'
                sh 'make check'
             }
         }
