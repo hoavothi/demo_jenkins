@@ -9,7 +9,12 @@ RUN mkdir -p $GRADLE_USER_HOME
 ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
-CMD  echo ${JENKINS_URL} && cp -R ${GRADLE_USER_CACHE}/caches ${GRADLE_USER_CACHE}/wrapper ${GRADLE_USER_HOME} || true && \
+COPY Gemfile* /tmp/
+
+WORKDIR /tmp
+RUN bundle check || bundle install
+
+CMD  echo ${JENKINS_URL} && cd .. && cp -R ${GRADLE_USER_CACHE}/caches ${GRADLE_USER_CACHE}/wrapper ${GRADLE_USER_HOME} || true && \
      cd /project && \
      echo "CLEAN " && \
      ./gradlew clean :app:check || exit 1 && \
