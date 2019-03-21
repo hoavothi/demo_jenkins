@@ -9,8 +9,7 @@ RUN mkdir -p $GRADLE_USER_HOME
 ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
-
-CMD  rsync -a --include ${GRADLE_USER_CACHE}/caches --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
+CMD  cd ${GRADLE_USER_CACHE} && rsync -a --include ${GRADLE_USER_CACHE}/caches --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
      cd /project && \
      echo "CLEAN " && \
      ./gradlew assembleDebug || exit 1 && \
