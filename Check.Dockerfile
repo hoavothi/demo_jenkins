@@ -13,7 +13,10 @@ COPY Gemfile* /tmp/
 WORKDIR /tmp
 RUN bundle check || bundle install
 
-CMD  cd / && pwd && ls -a && rsync -a --include ${GRADLE_USER_CACHE}/caches  --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
+CMD  cd / && pwd && ls -a && \
+     && cd GRADLE_USER_CACHE && \
+     ls -a &&
+     rsync -a --include ${GRADLE_USER_CACHE}/caches  --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
      cd /project && \
      echo "CLEAN " && \
      ./gradlew clean :app:check || exit 1 && \
