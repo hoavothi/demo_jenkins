@@ -1,5 +1,5 @@
 current directory: /Users/mba0135s/Desktop/pr/Demo/vendor/bundle/ruby/2.3.0/gems/oga-2.15/ext/c
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190321-22347-feq4ft.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190321-23973-ncrsx1.rb extconf.rb
 creating Makefile
 
 current directory: /Users/mba0135s/Desktop/pr/Demo/vendor/bundle/ruby/2.3.0/gems/oga-2.15/ext/c
@@ -17,4 +17,4 @@ ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app
 
 current directory: /Users/mba0135s/Desktop/pr/Demo/vendor/bundle/ruby/2.3.0/gems/oga-2.15/ext/c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 liboga.bundle ./.gem.20190321-22347-1s40p5p
+/usr/bin/install -c -m 0755 liboga.bundle ./.gem.20190321-23973-18zbw1k

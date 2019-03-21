@@ -1,5 +1,5 @@
 current directory: /Users/mba0135s/Desktop/pr/Demo/vendor/bundle/ruby/2.3.0/gems/ox-2.10.0/ext/ox
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190321-22347-6xjoyy.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190321-23973-1uks7so.rb extconf.rb
 >>>>> Creating Makefile for ruby version 2.3.3 on universal.x86_64-darwin17 <<<<<
 creating Makefile
 
@@ -32,4 +32,4 @@ ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app
 
 current directory: /Users/mba0135s/Desktop/pr/Demo/vendor/bundle/ruby/2.3.0/gems/ox-2.10.0/ext/ox
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ox.bundle ./.gem.20190321-22347-1qtyzdu
+/usr/bin/install -c -m 0755 ox.bundle ./.gem.20190321-23973-bes0rr
