@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
             JENKINS_URL = "http://05d680ac.ngrok.io"
-            DANGER_GITHUB_API_TOKEN = 47dd3102-5334-441d-9e9b-640f5e844ca0
+            DANGER_GITHUB_API_TOKEN = credentials("47dd3102-5334-441d-9e9b-640f5e844ca0")
     }
 
     stages {
