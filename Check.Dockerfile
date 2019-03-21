@@ -18,5 +18,5 @@ CMD  pwd && rsync -a --include ${GRADLE_USER_CACHE}/caches  --include ${GRADLE_U
      cd /project && \
      echo "CLEAN " && \
      ./gradlew clean :app:check || exit 1 && \
-
+      echo "EXEC BUND" && bundle exec danger pr https://github.com/hoavothi/demo_jenkins/pull/4 && \
      rsync -au ${GRADLE_USER_HOME}/caches ${GRADLE_USER_HOME}/wrapper ${GRADLE_USER_CACHE}/ || true
