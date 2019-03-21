@@ -38,4 +38,3 @@ dependencies {
 }
 
 apply from: "detekt.gradle"
-apply from: "detekt.gradle.kts"
