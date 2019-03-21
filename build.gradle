@@ -3,9 +3,9 @@
 buildscript {
     ext.kotlin_version = '1.2.41'
     repositories {
+        jcenter()
         mavenCentral() // <-- add this at top
         google()
-        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.0'
