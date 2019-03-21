@@ -4,7 +4,7 @@
             "outputFile": "/Users/mba0135s/Desktop/pr/Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "/Users/mba0135s/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/060dff93852d83e47ab4c05e8df92264/res/values-ar/values-ar.xml",
+                    "source": "/Users/mba0135s/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dfcba36d4921878b1628745fe6d58fce/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/42670ce6383bed13f7954ace3c0f4c70/res/values-ar/values-ar.xml",
+                    "source": "/Users/mba0135s/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5ac70dc63ade2a12c511849ec6c3cf24/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,0 +1,6 @@
+*.orig
+.DS_Store
+pkg
+.idea/
+.yardoc/
+*.gem

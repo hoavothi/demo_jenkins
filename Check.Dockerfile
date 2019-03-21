@@ -13,9 +13,9 @@ COPY Gemfile* /tmp/
 WORKDIR /tmp
 RUN bundle check || bundle install
 
-CMD  cd / && pwd && rsync -a --include ${GRADLE_USER_CACHE}/caches  --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
+CMD  cd / && pwd && ls -a && rsync -a --include ${GRADLE_USER_CACHE}/caches  --include ${GRADLE_USER_CACHE}/wrapper --exclude ${GRADLE_USER_CACHE}/*/ ${GRADLE_USER_HOME} || true && \
      cd /project && \
      echo "CLEAN " && \
      ./gradlew clean :app:check || exit 1 && \
-      echo "EXEC BUND" && bundle exec danger pr https://github.com/hoavothi/demo_jenkins/pull/4 --pry && \
+      echo "EXEC BUND" && bundle exec danger pr https://github.com/hoavothi/demo_jenkins/pull/4 && \
      rsync -au ${GRADLE_USER_HOME}/caches ${GRADLE_USER_HOME}/wrapper ${GRADLE_USER_CACHE}/ || true
