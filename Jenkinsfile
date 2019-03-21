@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    environment {
+            JENKINS_URL = "http://05d680ac.ngrok.io"
+    }
 
     stages {
         stage('PREPARE ENV'){

@@ -23,5 +23,6 @@ check-run:
 	 docker run -i --rm \
      	   -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
      	   -v /tmp/data/.gradle:/.gradle_cache \
+           -e JENKINS_URL=$(JENKINS_URL) \
             $(CHECK_IMAGE_NAME)
 
