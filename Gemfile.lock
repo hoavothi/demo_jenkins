@@ -84,6 +84,7 @@ DEPENDENCIES
   danger-checkstyle_format
   danger-junit
   nokogiri
+  public_suffix
 
 BUNDLED WITH
    2.0.1
