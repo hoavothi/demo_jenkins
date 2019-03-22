@@ -9,8 +9,8 @@ RUN mkdir -p $GRADLE_USER_HOME
 ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
-CMD  bundle check || bundle install && cp -R ${GRADLE_USER_CACHE}/caches ${GRADLE_USER_CACHE}/wrapper ${GRADLE_USER_HOME} || true && \
-     cd /project && \
+CMD   cp -R ${GRADLE_USER_CACHE}/caches ${GRADLE_USER_CACHE}/wrapper ${GRADLE_USER_HOME} || true && \
+     cd /project && bundle check || bundle install &&\
      echo "CLEAN " && \
      ./gradlew clean :app:check || exit 1 && \
      bundle exec danger && \
