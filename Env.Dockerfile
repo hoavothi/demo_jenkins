@@ -66,6 +66,7 @@ RUN apt-get -y install openjdk-8-jdk
 
 # Install Ruby
 RUN apt-get install -y ruby2.4 ruby2.4-dev
+RUN gem install rails --version 3.2.5 --no-ri --no-rdoc
 RUN gem install bundle
 RUN gem install nokogiri -v 1.8.1
 
