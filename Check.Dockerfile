@@ -9,9 +9,7 @@ RUN mkdir -p $GRADLE_USER_HOME
 ENV GRADLE_USER_CACHE /.gradle_cache
 RUN mkdir -p $GRADLE_USER_CACHE
 
-COPY Gemfile /tmp/
-
-WORKDIR /tmp
+WORKDIR /project
 RUN bundle check || bundle install
 
 CMD  bundle env && gem list && cd .. && cp -R ${GRADLE_USER_CACHE}/caches ${GRADLE_USER_CACHE}/wrapper ${GRADLE_USER_HOME} || true && \
