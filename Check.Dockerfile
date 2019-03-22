@@ -12,7 +12,7 @@ RUN mkdir -p $GRADLE_USER_CACHE
 COPY Gemfile* /tmp/
 
 WORKDIR /tmp
-RUN bundle check || bundle install
+RUN bundle update || bundle install
 
 CMD  echo ${JENKINS_URL} && cd .. && cp -R ${GRADLE_USER_CACHE}/caches ${GRADLE_USER_CACHE}/wrapper ${GRADLE_USER_HOME} || true && \
      cd /project && \
