@@ -23,6 +23,7 @@ check-run:
 	 docker run -i --rm \
      	   -v /tmp/data/$(shell echo "$${PWD##*/}"):/project \
      	   -v /tmp/data/.gradle:/.gradle_cache \
+     	   --env-file env.list \
            -e JENKINS_URL=$(JENKINS_URL) \
            -e DANGER_GITHUB_API_TOKEN=${DANGER_GITHUB_API_TOKEN} \
             $(CHECK_IMAGE_NAME)

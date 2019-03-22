@@ -16,7 +16,8 @@ pipeline {
         stage('Check 1') {
             steps {
                echo 'CHECK 1'
-               sh 'env'
+               sh 'env | grep "GIT\\|NODE_\\|STAGE\\|BUILD\\|JOB_NAME\\|ghprbPullId\\|CHANGE_ID" > env.list'
+               sh 'cat env.list'
                sh 'make check'
             }
         }
